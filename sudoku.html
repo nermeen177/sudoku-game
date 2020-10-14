@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>the game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-case =1.0">
+	<link rel="stylesheet" type="text/css" href="sudoku.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	 <br>  	
+   <center><h1>sudoku game</h1></center>
+   <center>
+	<div class="container">
+    <div class="row">
+      <div class="col-12">
+      	<table>
+      	   <!--row1-->
+           <tr>
+            <td class="fixed">5</td>
+            <td class="fixed">3</td>
+            <td class="right on1"><input id="n1" size="1" maxlength="1"></td>
+            <td><input id="n2" size="1" maxlength="1"> </td>
+            <td class="fixed">7</td>
+            <td class="right"><input id="n3" size="1" maxlength="1"></td>
+            <td><input id="n4" size="1" maxlength="1"></td>
+            <td><input id="n5" size="1" maxlength="1"></td>
+            <td><input id="n6" size="1" maxlength="1"></td>
+           </tr>
+           <!--row2-->
+           <tr>
+            <td class="fixed">6</td>
+            <td><input id="n7" size="1" maxlength="1"></td>
+            <td class="right"><input id="n8" size="1" maxlength="1"></td>
+            <td class="fixed">1</td>
+            <td class="fixed">9</td>
+            <td class="fixed right">5</td>
+            <td><input id="n9" size="1" maxlength="1"></td>
+            <td><input id="n10" size="1" maxlength="1"></td>
+            <td><input id="n11" size="1" maxlength="1"></td>
+          </tr>
+          <!--row3-->
+          <tr class="row3">
+           <td><input id="n12" size="1" maxlength="1"></td>
+           <td class="fixed">9</td>
+           <td class="fixed right">8</td>
+           <td><input id="n13" size="1" maxlength="1"></td>
+            <td><input id="n14" size="1" maxlength="1"></td>
+            <td class="right"><input id="n15" size="1" maxlength="1"></td>
+            <td><input id="n16" size="1" maxlength="1"></td>
+            <td class="fixed">6</td>
+            <td><input id="n17" size="1" maxlength="1"></td>
+          </tr>
+          <!--row4-->
+          <tr>
+            <td class="fixed">8</td>
+            <td><input id="n18" size="1" maxlength="1"></td>
+            <td class="right"><input id="n19" size="1" maxlength="1"></td>
+            <td><input id="n20" size="1" maxlength="1"></td>
+            <td class="fixed">6</td>
+            <td class="right"><input id="n21" size="1" maxlength="1"></td>
+            <td><input id="n22" size="1" maxlength="1"></td>
+            <td><input id="n23" size="1" maxlength="1"></td>
+            <td class="fixed">3</td>
+           </tr>
+           <!--row5-->
+           <td class="fixed">4</td>
+            <td><input id="n24" size="1" maxlength="1"></td>
+            <td class="right"><input id="n25" size="1" maxlength="1"></td>
+            <td class="fixed">8</td>
+            <td><input id="n26" size="1" maxlength="1"></td>
+            <td class="fixed">3</td>
+            <td><input id="n27" size="1" maxlength="1"></td>
+            <td><input id="n28" size="1" maxlength="1"></td>
+            <td class="fixed">1</td>
+           </tr>
+          <!--row6-->
+          <tr class="row6">
+            <td class="fixed">7</td>
+            <td><input id="n29" size="1" maxlength="1"></td>
+            <td class="right"><input id="n30" size="1" maxlength="1"></td>
+            <td><input id="n31" size="1" maxlength="1"></td>
+            <td class="fixed">2</td>
+            <td class="right"><input id="n32" size="1" maxlength="1"></td>
+            <td><input id="n33" size="1" maxlength="1"></td>
+            <td><input id="n34" size="1" maxlength="1"></td>
+            <td class="fixed">6</td>
+          </tr>
+          <!--row7-->
+          <tr>
+            <td><input id="n35" size="1" maxlength="1"></td>
+            <td class="fixed">6</td>
+            <td class="right"><input id="n36" size="1" maxlength="1"></td>
+            <td><input id="n37" size="1" maxlength="1"></td>
+            <td><input id="n38" size="1" maxlength="1"></td>
+            <td class="right"><input id="n39" size="1" maxlength="1"></td>
+            <td class="fixed">2</td>
+            <td class="fixed">8</td>
+            <td><input id="n40" size="1" maxlength="1"></td>
+           </tr>
+           <!--row8-->
+           <tr>
+            <td><input id="n41" size="1" maxlength="1"></td>
+            <td><input id="n42" size="1" maxlength="1"></td>
+            <td class="right"><input id="n43" size="1" maxlength="1"></td>
+            <td class="fixed">4</td>
+            <td class="fixed">1</td>
+            <td class="fixed right">9</td>
+            <td><input id="n44" size="1" maxlength="1"></td>
+            <td><input id="n45" size="1" maxlength="1"></td>
+            <td class="fixed">5</td>
+           </tr>
+          <!--row9-->
+          <tr>
+            <td><input id="n46" size="1" maxlength="1"></td>
+            <td><input id="n47" size="1" maxlength="1"></td>
+            <td class="right"><input id="n48" size="1" maxlength="1"></td>
+            <td><input id="n49" size="1" maxlength="1"></td>
+            <td class="fixed">8</td>
+            <td class="right"><input id="n50" size="1" maxlength="1"></td>
+            <td><input id="n51" size="1" maxlength="1"></td>
+            <td class="fixed">7</td>
+            <td class="fixed">9</td>
+         </tr>
+</table>
+
+      	
+      </div>
+        
+    </div>
+    </div>
+    <br>
+
+    <a href="#" class="btn btn-dark">done</a>
+ </center>
+
+  <script src="js\jquery.min.js"></script>
+  <script src="js\bootstrap.min.js"></script>
+  <script src="sudoku.js"></script>
+</body>
+</html>
