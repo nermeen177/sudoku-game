@@ -102,30 +102,3 @@ $(".btn").click(function(){
  });
 
 }); 
-
-
-
-/*
-
-	if(num1.value ==arr[0][2] && num2.value==arr[0][3] && num3.value==arr[0][5] 
-		&& num4.value==arr[0][6] && num5.value==arr[0][7] && num6.value==arr[0][8] 
-		&& num7.value==arr[1][1] && num8.value==arr[1][2] && num9.value==arr[1][6] 
-		&& num10.value==arr[1][7] && num11.value==arr[1][8] && num12.value==arr[2][0]
-		&& num13.value==arr[2][3] && num14.value==arr[2][4] && num15.value==arr[2][5]
-		&& num16.value==arr[2][6] && num17.value==arr[2][8] && num18.value==arr[3][1]
-		&& num19.value==arr[3][2] && num20.value==arr[3][3] && num21.value==arr[3][5]
-		&& num22.value==arr[3][6] && num23.value==arr[3][7] && num24.value==arr[4][1]
-		&& num25.value==arr[4][2] && num26.value==arr[4][4] && num27.value==arr[4][6]
-		&& num28.value==arr[4][7] && num29.value==arr[5][1] && num30.value==arr[5][2]
-		&& num31.value==arr[5][3] && num32.value==arr[5][5] && num33.value==arr[5][6]
-	    && num34.value==arr[5][7] && num35.value==arr[6][0] && num36.value==arr[6][2]
-	    && num37.value==arr[6][3] && num38.value==arr[6][4] && num39.value==arr[6][5]
-	    && num40.value==arr[6][8] && num41.value==arr[7][0] && num42.value==arr[7][1]
-	    && num43.value==arr[7][2] && num44.value==arr[7][6] && num45.value==arr[7][7]
-	    && num46.value==arr[8][0] && num47.value==arr[8][1] && num48.value==arr[8][2]
-	    && num49.value==arr[8][3] && num50.value==arr[8][5] && num51.value==arr[8][6])
-
-	   alert("you are winner");
-    else
-	   alert("you are loser");
-	*/
